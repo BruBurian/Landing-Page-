@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Landing Page Bruno Burian</title>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Criar sua Conta</h1>
+                <div class="social-icons">
+                    <a href="https://github.com/BruBurian" class="icon"><i class="bi bi-github"></i></a>
+                    <a href="mailto:brunoburian@gmail.com" class="icon"><i class="bi bi-envelope-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/bruno-burian-264a64248/" class="icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <span>Use seu email para se cadastrar</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Cadastrar-se</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Entre na sua conta</h1>
+                <div class="social-icons">
+                    <a href="https://github.com/BruBurian" class="icon"><i class="bi bi-github"></i></a>
+                    <a href="mailto:brunoburian@gmail.com" class="icon"><i class="bi bi-envelope-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/bruno-burian-264a64248/" class="icon"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Esqueceu a senha?</a>
+                <button>Logar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Olá, tudo bem?</h1>
+                    <p>Coloque seus detalhes pessoais para usar todas as funcionalidades do site!</p>
+                    <button class="hidden" id="login">login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Bem-Vindo de Volta!</h1>
+                    <p>Insira seu email e senha para entrar no site!</p>
+                    <button class="hidden" id="register">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
